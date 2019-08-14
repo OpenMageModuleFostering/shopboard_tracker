@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Shopboard Tracker
+ *
+ * @category    Shopboard
+ * @package     Shopboard_Tracker
+ * @copyright   Copyright (c) 2012 Shopboard. http://www.shopboard.eu
+ * @license     http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <Shopboard_Tracker>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core/>
+            </depends>
+        </Shopboard_Tracker>
+    </modules>
+</config>

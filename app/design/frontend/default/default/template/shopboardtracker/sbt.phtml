@@ -1,0 +1,20 @@
+<?php $trackingCode = Mage::getStoreConfig(Shopboard_Tracker_Helper_Data::XML_PATH_TRACKING_CODE) ?>
+<!-- BEGIN SHOPBOARD TRACKER CODE -->
+<script type="text/javascript">
+//<![CDATA[
+  var _sbt=window._sbt || [];
+  _sbt.push(['setTrackingCode','<?php echo $trackingCode; ?>']);
+  <?php echo $this->_getCartTrackingCode(); ?>
+
+  (function(w, d, s){
+    function sb() {
+        var e = d.createElement(s); e.type = "text/javascript"; e.async = true;
+        e.src = ('https:' === d.location.protocol ? "https://" : 'http://') + 'd2yxzs5acxflvu.cloudfront.net/tracker.min.js';
+        s = d.getElementsByTagName(s)[0]; s.parentNode.insertBefore(e, s);
+    }
+    w.addEventListener ? w.addEventListener("load", sb, false) : w.attachEvent("onload", sb);
+})(window, document, "script");
+
+//]]>
+</script>
+<!-- END SHOPBOARD TRACKER CODE -->

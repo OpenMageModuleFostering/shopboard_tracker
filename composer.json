@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Shopboard_Tracker",
+    "type": "magento-module",
+    "license": "MITL",
+    "homepage": "",
+    "description": "Shopboard is a realtime analytics service to quickly see who's online, and engage with visitors by live chat. ",
+    "authors": [
+    {
+        "name": "Sebastien Saunier",
+        "email": "seb@shopboard.eu"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

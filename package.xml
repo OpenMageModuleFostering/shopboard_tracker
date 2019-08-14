@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>Shopboard_Tracker</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Shopboard is a realtime analytics service to quickly see who's online, and engage with visitors by live chat. </summary>
+    <description>This module introduces a new setting in the configuration page under General | Shopboard. Just copy-pase the tracking code of your shop, and that's it!&#xD;
+&#xD;
+Quickly see who's there, who's wandering, or who's hesitating to convert their carts!&#xD;
+&#xD;
+Shopboard integrates with Olark and SnapEngage for live chat.&#xD;
+&#xD;
+Private beta: http://signup.shopboard.eu</description>
+    <notes>First version for Shopboard private beta.&#xD;
+&#xD;
+Request your invite at http://signup.shopboard.eu&#xD;
+&#xD;
+Backoffice: https://app.shopboard.eu&#xD;
+&#xD;
+More info at http://www.shopboard.eu</notes>
+    <authors><author><name>Sebastien Saunier</name><user>ssaunier</user><email>seb@shopboard.eu</email></author></authors>
+    <date>2012-05-17</date>
+    <time>08:01:16</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Shopboard_Tracker.xml" hash="8643e2cfca18610f28b1c1a04ae37140"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="shopboardtracker.xml" hash="b6fa048c6c50c2387f767d3da7febdfc"/></dir><dir name="template"><dir name="shopboardtracker"><file name="sbt.phtml" hash="33dd864074e646f2521a77caac414350"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Shopboard"><dir name="Tracker"><dir name="Block"><file name="Sbt.php" hash="98848222581cdd61657b175a713b8ecf"/></dir><dir name="Helper"><file name="Data.php" hash="cf809087583c584e0f6dc93250c9d392"/></dir><dir name="Model"><file name="Observer.php" hash="b727b185f973020932d7015adefee7a0"/></dir><dir name="etc"><file name="adminhtml.xml" hash="460de3855580b10a960e3a0b57d710da"/><file name="config.xml" hash="78cca370e5b9a0919e4de7f7e29fbefe"/><file name="system.xml" hash="be00790498cbb34c405e847d581c36ba"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="before_body_end">
+            <block type="tracker/sbt" name="shopboard_tracker" as="shopboard_tracker" template="shopboardtracker/sbt.phtml" />
+        </reference>
+    </default>
+</layout>
